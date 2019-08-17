@@ -1,0 +1,36 @@
+[
+  {
+    "name": "7章鲤鱼精1",
+    "cost": {
+      "energy": 3,
+      "round": 1
+    },
+    "elves": [
+      {
+        "name": "鲤鱼精",
+        "count": 3
+      },
+      {
+        "name": "帚神",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "28章荒5",
+    "cost": {
+      "energy": 3,
+      "round": 1
+    },
+    "elves": [
+      {
+        "name": "荒",
+        "count": 1
+      },
+      {
+        "name": "跳跳妹妹",
+        "count": 3
+      }
+    ]
+  }
+]

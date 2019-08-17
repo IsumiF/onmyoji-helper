@@ -1,0 +1,34 @@
+name: onmyoji-helper
+version: 0.1.0.0
+synopsis: Onmyoji Helper
+license: BSD-3-Clause
+author: Isumi Feng
+maintainer: contact@zelinf.net
+copyright: Copyright 2019, Isumi Feng
+category: Utility
+
+ghc-options: -Wall
+
+dependencies:
+- base
+- containers
+- file-embed
+- lens
+- mtl
+- transformers
+- aeson
+- lens
+- text
+
+library:
+  source-dirs:
+  - src
+
+tests:
+  spec:
+    main: Spec.hs
+    source-dirs: test
+    build-tools: hspec-discover
+    dependencies:
+    - hspec
+    - QuickCheck

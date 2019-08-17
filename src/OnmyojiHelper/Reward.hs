@@ -1,0 +1,3 @@
+module OnmyojiHelper.Reward
+  (
+  ) where
