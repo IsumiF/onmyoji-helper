@@ -6,19 +6,28 @@ author: Isumi Feng
 maintainer: contact@zelinf.net
 copyright: Copyright 2019, Isumi Feng
 category: Utility
+data-dir: data
+data-files: yys_xsfy.html
 
 ghc-options: -Wall
 
 dependencies:
 - base
+- aeson
+- bytestring
 - containers
 - file-embed
+- JuicyPixels
+- lens
 - lens
 - mtl
-- transformers
-- aeson
-- lens
+- servant
+- servant-server
+- servant-swagger
 - text
+- transformers
+- tagsoup
+- filepath
 
 library:
   source-dirs:

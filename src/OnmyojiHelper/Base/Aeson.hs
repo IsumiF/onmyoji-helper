@@ -1,5 +1,6 @@
-module OnmyojiHelper.Util
-  ( removeNsOptions
+module OnmyojiHelper.Base.Aeson
+  ( module Data.Aeson
+  , removeNsOptions
   ) where
 
 import           Data.Aeson

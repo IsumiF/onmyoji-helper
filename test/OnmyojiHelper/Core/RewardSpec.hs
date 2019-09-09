@@ -1,4 +1,4 @@
-module OnmyojiHelper.RewardSpec
+module OnmyojiHelper.Core.RewardSpec
   ( spec
   ) where
 
